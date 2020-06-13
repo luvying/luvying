@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://luvying.gitee.io/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Ying</title>
+    <link rel="shortcut icon" type="images/x-icon" href="https://cdn.jsdelivr.net/gh/cxying/ying-blog-cdn@v1.0.0/files/static/images/head.jpg">
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <a href="https://yingserver.cn/"><font style="color:deepskyblue;font-size:20px;">我的博客</font></a>
+        <div id="img">
+            <p><img src="./index_files/acgurl.php" alt="img" style="width: 60%;"></p>
+        </div>
+        <div style="text-align:center">
+            <input type="button" name="button" value="下一张" onclick="changeImg()">
+        </div>
+    </div>
+    <script>
+        function changeImg() {
+            var img = document.getElementById("img").children[0].children[0];
+            img.src = "https://yingserver.cn/open/acgimg/acgurl.php?t=" + new Date().getTime();
+        }
+    </script>
+    <style>
+
+    </style>
+
+
+</body></html>
